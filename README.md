@@ -11,7 +11,6 @@ A small Flask app that uses LangChain and a vector store (Pinecone) to build a c
 * Python 3.10 or newer
 * An OpenAI API key (or another embedding/LLM provider)
 * A Pinecone API key and index
-* Git (to clone the repo)
 * `uv` (optional) or `pip` for package management
 
 ---
@@ -21,8 +20,8 @@ A small Flask app that uses LangChain and a vector store (Pinecone) to build a c
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/entbappy/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS.git
-cd Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS
+git clone https://github.com/rohithsukka/PharmaRegAssistant.git
+cd PharmaRegAssistant
 ```
 
 ### 2. Create and activate a virtual environment
@@ -62,8 +61,6 @@ Add your Pinecone and OpenAI credentials (no spaces around `=`):
 
 ```ini
 PINECONE_API_KEY="your_pinecone_api_key"
-PINECONE_ENVIRONMENT="your_pinecone_env"  # if required
-PINECONE_INDEX_NAME="your_index_name"
 OPENAI_API_KEY="your_openai_api_key"
 ```
 
@@ -136,11 +133,5 @@ Open the UI at `http://127.0.0.1:5000` (or the address printed by `app.py`).
 * Flask
 * OpenAI (or other LLM providers)
 * Pinecone
-
----
-
-If you want, I can also:
-
-* Add a ready-to-run `Makefile` or `scripts/` folder for common tasks
 * Provide exact `uv` or `pip` install commands that include optional extras
 * Add a sample `.env.example` file to the repo
