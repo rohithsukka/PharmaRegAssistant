@@ -134,4 +134,3 @@ Open the UI at `http://127.0.0.1:5000` (or the address printed by `app.py`).
 * OpenAI (or other LLM providers)
 * Pinecone
 * Provide exact `uv` or `pip` install commands that include optional extras
-* Add a sample `.env.example` file to the repo
